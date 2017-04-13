@@ -24,12 +24,15 @@ requirements:
     - python
 
 test:
+  requires:
+    - pytest
+
   imports:
     - cerberus
     - cerberus.tests
 
   commands:
-      - python -m unittest -v cerberus.tests.tests
+      - python setup.py test
 
 about:
   home: https://github.com/nicolaiarocci/cerberus
