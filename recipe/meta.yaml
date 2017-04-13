@@ -32,7 +32,7 @@ test:
     - cerberus.tests
 
   commands:
-      - python setup.py test
+      - pytest -v
 
 about:
   home: https://github.com/nicolaiarocci/cerberus
