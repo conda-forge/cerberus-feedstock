@@ -1,6 +1,6 @@
 {% set name = "Cerberus" %}
-{% set version = "1.0.1" %}
-{% set sha256 = "b4d6a6a355fef497875ccca2ad482b3511c3e8739919f2cbf58a0dacf09d9f9f" %}
+{% set version = "1.1" %}
+{% set sha256 = "a5b39090fde3ec3294c9d7030b8eda935b42222160a66a922e0c8aea34cabfdf" %}
 
 package:
   name: {{ name|lower }}
