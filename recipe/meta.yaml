@@ -26,13 +26,11 @@ requirements:
 test:
   requires:
     - pytest
-
   imports:
     - cerberus
     - cerberus.tests
-
   commands:
-      - pytest -v
+    - pytest --pyargs cerberus
 
 about:
   home: https://github.com/nicolaiarocci/cerberus
