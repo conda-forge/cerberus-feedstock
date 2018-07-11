@@ -14,14 +14,15 @@ Summary: Lightweight, extensible schema and data validation tool for Python dict
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cerberus-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cerberus-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cerberus-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cerberus-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cerberus-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cerberus-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/cerberus-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/cerberus-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cerberus/badges/version.svg)](https://anaconda.org/conda-forge/cerberus)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cerberus/badges/downloads.svg)](https://anaconda.org/conda-forge/cerberus)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cerberus-green.svg)](https://anaconda.org/conda-forge/cerberus) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cerberus.svg)](https://anaconda.org/conda-forge/cerberus) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cerberus.svg)](https://anaconda.org/conda-forge/cerberus) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cerberus.svg)](https://anaconda.org/conda-forge/cerberus) |
 
 Installing cerberus
 ===================
