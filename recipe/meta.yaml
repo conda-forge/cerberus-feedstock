@@ -19,20 +19,22 @@ build:
 requirements:
   host:
     - pip
-    - python
-    - setuptools
+    - python >=3.7
 
   run:
-    - python
+    - python >=3.7
+    - setuptools
 
 test:
   requires:
     - pytest
+  source_files:
+    - cerberus/tests
   imports:
     - cerberus
     - cerberus.tests
   commands:
-    - pytest --pyargs cerberus
+    - pytest cerberus/tests
 
 about:
   home: https://github.com/nicolaiarocci/cerberus
@@ -42,5 +44,5 @@ about:
 
 extra:
   recipe-maintainers:
-      - fdosani
-      - kyleniemeyer
+    - fdosani
+    - kyleniemeyer
