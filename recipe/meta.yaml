@@ -26,15 +26,8 @@ requirements:
     - setuptools
 
 test:
-  requires:
-    - pytest
-  source_files:
-    - cerberus/tests
   imports:
     - cerberus
-    - cerberus.tests
-  commands:
-    - pytest cerberus/tests
 
 about:
   home: https://github.com/nicolaiarocci/cerberus
